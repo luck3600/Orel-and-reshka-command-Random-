@@ -1,0 +1,10 @@
+from random import * 
+orel = 0
+i_reshka = 0
+for i in range(100):
+    pon = randint(1,2)
+    if pon == 1:
+        orel +=1
+    else:
+        i_reshka +=1
+print( orel,i_reshka)
